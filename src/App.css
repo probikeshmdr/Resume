@@ -1,0 +1,466 @@
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.black {
+  color: black !important;
+}
+
+.responsive {
+  visibility: hidden;
+}
+
+.white{
+  color: white;
+}
+.default-padding{
+  padding: 12px;
+}
+
+.vertical-align {
+  vertical-align:middle;
+}
+.BodyTitle h1 {
+  font-weight: bold;
+  color: #346cbf;
+}
+
+.skillsSet .BodyTitle{
+  font-size: 20px;
+  /* color: #1f26b7; */
+}
+
+html, body, div#root, div.App,  div.mid-body,  div.leftMenu {
+
+  height: 100%;
+}
+html, body{
+  height: 100%;
+}
+.TopBody{
+  background: #cdcdcd1a;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+
+.mid-body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  
+}
+
+.bottom-body {
+  text-align: center;
+
+}
+
+.bottom-body  *{
+  font-size: 12px;
+}
+
+.App {
+  display: grid;
+}
+
+.skill {
+  padding: 4px;
+  display: inline;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  padding: 4px;
+  display: inline-block;
+}
+
+
+/* left menu design */
+
+.leftMenu ol {
+  padding: 0%
+}
+
+
+
+.header .border-bottom{
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+.header .header .border-bottom{
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  background: #229c85;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 12px;
+}
+
+
+.mid-body-header{
+  background: #229c85;
+}
+
+.menu-block > *{
+  display: inline-block;
+}
+
+.leftMenu {
+  background-color: #24344b;
+}
+
+.leftMenu .container {
+  border: none;
+}
+
+.leftMenu .container ol li {
+  margin: 8px;
+}
+
+.leftMenu .container ol li{
+  list-style: none;
+  padding: 8px;
+  padding-left: 3px;
+  color: black !important;
+  text-decoration: none !important;
+
+}
+
+
+.leftMenu .container ol li  a{
+  text-transform: capitalize;
+  color: #f0f0f0 !important;
+  text-decoration: none !important;
+
+}
+
+.leftMenu .container ol .selected a {
+  color: rgb(0, 153, 255) !important;
+
+}
+/* continers */
+.container {
+  border: 1px solid rgb(182, 180, 180);
+  /* background: white; */
+  margin: 4px;
+  padding: 8px;
+}
+
+.border-bottom{
+  /* border-bottom: 2px solid rgba(138, 132, 132, 0.637); */
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin: 0px;
+  text-transform: capitalize;
+  /* color: #346cbf; */
+  /* font-size: 30px; */
+  font-weight: bold;
+}
+
+
+
+/* experince */
+.experience {
+  border-radius: 8px;
+  background: white;
+  border: 1px solid #ababab80;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.link-site{
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.experience .header{
+  padding: 12px;
+  border-bottom: 1px solid grey;
+  margin-bottom: 4px;
+
+  /* background: #3ecdaf; */
+}
+.experience .header p{
+  color: black;
+  font-size: 20px;
+}
+.experience .header p, .experience .header i{
+  display: inline-block;
+}
+
+.experience .header i {
+  padding: 4px;
+}
+
+
+/* some formatting */
+.title {
+  color: #f5059d;
+}
+
+.header-bottom{
+  /* padding-bottom: 8px;
+  border-bottom: 1px solid rgb(194, 228, 201); */
+}
+
+.experience-body{
+  /* display: grid; */
+  /* grid-template-columns: 1fr 2fr; */
+  
+}
+
+.experience-body > div {
+  padding: 8px;
+}
+
+.responsibilities {
+  border-bottom:1px solid rgb(187, 233, 183);
+  /* background: #24344b; */
+}
+.responsibilities *{
+  /* color: #e9e9e9; */
+
+}
+
+
+
+.TechnologiesUsed > .inline-block {
+  margin: 0px;
+}
+
+.experinces-title {
+  /* background: rgb(117, 114, 114); */
+  /* color: white; */
+  float: left;
+  padding: 8px;
+}
+
+.experience-skill {
+  /* border : 2px solid rgb(187, 233, 183); */
+  border-radius: 25%;
+  background: #346cbf;
+  color: white;
+  display: inline-block;
+  padding: 4px;
+  margin : 0px 15px;
+}
+
+.experiences {
+  display: grid;
+  padding: 8px;
+}
+
+.menuItems {
+
+}
+
+.small {
+  /* display: inline-block; */
+  /* background: #76a2e3;
+  padding: 8px;
+  border-radius: 20px; */
+  /* color: white; */
+}
+.skillsSet div {
+  /* display: inline-block; */
+}
+
+
+.capital {
+  text-transform: uppercase;
+}
+.skillsSet{
+  /* border-left: #e64a4b4d 7px solid; */
+  margin: 4px 0px 12px 0px;
+  padding: 6px 4px;
+  display: grid;
+}
+
+.skillsSet * {
+  color: white;
+}
+
+.skillsSet-body {
+  /* border-left: #e64a4b4d 7px solid; */
+  display: grid;
+}
+
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.skill input, .skill p {
+  float: left;
+  padding: 1px;
+  align-self: center;
+}
+
+.skill p {
+  margin: 0px;
+  font-size: 14px;
+
+}
+
+.skill {
+  display: inline-block;
+}
+/* .skill p:hover { cursor: pointer; } */
+
+.leftMenu .container ol li a:hover  { cursor: pointer; }
+.skill-bottom{
+  padding-bottom: 8px;
+  /* border-bottom: 4px solid rgb(33, 204, 33); */
+}
+
+.RightBody{
+  /* padding: 16px; */
+  background: #eee;
+}
+
+
+.top-right{
+  float:right;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.top-right > p {
+  display: inline-block;
+  max-height: 50px;
+  max-width: 50px;
+  padding: 10px;
+
+}
+
+.top-right > p > a > img {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* for small screen windows  */
+@media screen and (max-width: 600px){
+  .mid-body {
+    display: grid;
+    grid-template-columns: none;
+  } 
+
+  .experience-body{
+    display: block;
+  }
+}
+
+
+/* for small screen windows  */
+@media screen and (min-width: 600px){
+  .mid-body {
+
+  }
+  
+
+}
+
+experiences-body {
+  display:grid;
+}
+
+/* for small screen windows  */
+@media screen and (min-width: 1200px){
+  .experiences-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .experience{
+    margin: 18px;
+  }
+}
+
+
+
+.left-side{
+  /* background: #F36235; */
+}
+
+.left-side *{
+  /* color: #e9e9e9; */
+}
+
+
+@media screen and (max-width: 540px){
+  .experience-body {
+    grid-template-columns: 1fr;
+  } 
+
+
+  .responsive{
+      visibility: visible;
+  }
+
+  body{
+    background: #f5f5f5;
+  }
+
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+  
+  .left-side .second {
+    border:1px solid rgb(215, 215, 224);
+  }
+
+  .TechnologiesUsed{
+    margin: 14px 0px;
+  }
+}
+
+.second{
+  background: #346cbf;
+}
+.second a * {
+  color: white;
+}
+
+
+.code {
+  font-size: 12px;
+}
+
+.first{
+  display: flex;
+}
+
+.first img {
+  padding : 0px 4px;
+}
+
+.experiences .header > p {
+  margin-bottom: 0px;
+}
+
+
+.see-block > a:nth-child(1) > img:nth-child(1) {
+  max-height: 24px;
+  max-width: 24px;
+}
+
+.reach_out *{
+  color: white;
+  text-decoration: none;
+}
