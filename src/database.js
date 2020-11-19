@@ -226,8 +226,6 @@ var experienceForFilter = [
 var filterer = skills => {
   let thisExperience = [...db.experiencesProjects];
 
-  console.log("expereinces ", thisExperience);
-
   var stuff = 0;
   if (skills.length == 0) {
     stuff = thisExperience;

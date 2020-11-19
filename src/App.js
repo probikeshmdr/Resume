@@ -29,8 +29,6 @@ class App extends Component {
   constructor(props){
     super(props);
 
-    console.log(items);
-
     this.state = {
       items: items
     }
@@ -38,7 +36,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-      console.log("items", items);
+
       this.setState({
         items: items
       });
@@ -48,8 +46,6 @@ class App extends Component {
   }
 
   render() {
-    console.log("items", items);
-
     const {items} = this.state;
 
     if(items.about == undefined){

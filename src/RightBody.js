@@ -92,7 +92,7 @@ const Experience = ({experience}) => {
 }
 
 const Experiences = ({experiences, icon}) => {
-    console.log("exp ", experiences);
+
     return (
 
         experiences.showingExperienceOf == "NONE" ? <div />: 
@@ -115,7 +115,7 @@ const Experiences = ({experiences, icon}) => {
 }
 
 const OwnDS = ({body, icon})=> {
-    console.log("body", body);
+
 
     return <div className="container"> 
             <div className="header">
@@ -132,7 +132,7 @@ const OwnDS = ({body, icon})=> {
 
 
 const RightBody = ({menuItem, items}) =>{
-    console.log("items", items);
+
     return (
         <div className="RightBody">
             <Switch>
