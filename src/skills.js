@@ -45,10 +45,8 @@ class SkillsSet extends Component {
             skills.push(skill);
         }
 
-        console.log("filterer", filterer);
+
         let data = filterer(skills);
-        
-        console.log("data", data);
         
         if(data == undefined || data == null) data = []
         this.setState({
@@ -60,8 +58,6 @@ class SkillsSet extends Component {
     render(){
 
         let {skillsSet, icon} = this.props;
-
-        console.log("skills", skillsSet);
 
         return (
             <div className="SkillsSet">
