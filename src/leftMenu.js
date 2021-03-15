@@ -59,7 +59,7 @@ class LeftMenu extends Component {
         <div className="reach_out container">
           <Title title="LINKS" />
           <p className="see-block">
-            <a href="https://www.linkedin.com/in/bikeshmdr/">
+            <a href="https://www.linkedin.com/in/bikeshmdr/" target="_blank">
               <img
                 className="vertical-align"
                 src="/linkedIn.png"
@@ -69,7 +69,7 @@ class LeftMenu extends Component {
             </a>
           </p>
           <p className="see-block">
-            <a href="https://github.com/whyineed1">
+            <a href="https://github.com/probikeshmdr" target="_blank">
               <img className="vertical-align" src="/gitHub.png" alt="github" />{" "}
               GitHub{" "}
             </a>
